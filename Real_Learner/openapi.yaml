@@ -1,0 +1,27 @@
+openapi: 3.0.0
+info:
+  title: People
+  version: 1.0
+  description: The API specification used for this Sample Project
+  contact:
+    name: Team Lama
+    url: "https://www.moomoo.com"
+    email: support@moomoo.com
+servers:
+  - url: "https://localhost:5001"
+tags:
+  - name: Health
+    description: To Return the health of the API
+paths:
+  /getHealth:
+    get:
+      summary: Return Health of the API
+      tags: 
+        - Health
+      responses:
+        "200":
+          description: returns true or false
+          content:
+            application/json:
+              schema:
+                type: boolean
