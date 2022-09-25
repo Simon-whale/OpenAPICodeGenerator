@@ -17,7 +17,7 @@ To configure NSwag you will need to create an [nswag.json](https://github.com/Si
 
 ## Generating the file OpenApi C# files
 
-**OPtion 1** To generate the files, you have two options, either to run the following command from the terminal
+**Option 1** To generate the files, you have two options, either to run the following command from the terminal
 
 ```
 nswag run nswag.json  /runtime:Net60
