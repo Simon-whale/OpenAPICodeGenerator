@@ -1,4 +1,4 @@
-# OpenAPICodeGenerator
+# Open API Code Generator
 
 This project is used to learn / play with the OpenApi code contract Generators.  before you begin you need to install the following packages
 
