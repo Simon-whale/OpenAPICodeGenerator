@@ -32,3 +32,8 @@ nswag run nswag.json  /runtime:Net60
 ```
 
 Everytime you then build the project it will look to see if you need to rebuild the the generated file
+
+## Further reading
+
+* [NSwag Configuration Document](https://github.com/RicoSuter/NSwag/wiki/NSwag-Configuration-Document)
+* [Swagger Data Type](https://swagger.io/docs/specification/data-models/data-types/)
